@@ -2,7 +2,7 @@
 
 > #### Table of Contents
 > - [Project Structure](#project-structure)
-> - [Directory Structure](#directory-structure)
+> - [Directory Structures](#directory-structures)
 >   - [algorithms](#algorithms)
 >   - [tracers](#tracers)
 >   - [algorithm-visualizer](#algorithm-visualizer)
@@ -17,9 +17,22 @@ The project [algorithm-visualizer](https://github.com/algorithm-visualizer) cons
 
 - [algorithm-visualizer](#algorithm-visualizer) contains the frontend server written in React and the backend server written in Node.
 
-## Directory Structure
+## Directory Structures
 
 ### [algorithms](https://github.com/algorithm-visualizer/algorithms)
+
+- **[Category 1]/** is the name of the category.
+    - **[Algorithm 1]/** is the name of the algorithm.
+        - **README.md** is the description of the algorithm.
+        - **code.js** is the implementation of the algorithm in ECMAScript.
+        - **code.cpp** is the implementation of the algorithm in C++.
+        - **code.java** is the implementation of the algorithm in Java.
+    - **[Algorithm 2]/**
+    - **[Algorithm 3]/**
+    - ...
+- **[Category 2]/**
+- **[Category 3]/**
+- ...
 
 ### [tracers](https://github.com/algorithm-visualizer/tracers)
 
