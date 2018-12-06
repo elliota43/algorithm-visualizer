@@ -1,5 +1,6 @@
 # Contributing
 
+> #### Table of Contents
 > - [Running Locally](#running-locally)
 > - [Creating a Pull Request](#creating-a-pull-request)
 
