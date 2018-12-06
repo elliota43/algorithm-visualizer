@@ -22,7 +22,7 @@ Learning algorithms from text and static images is quite boring. For that, there
 
 **I want to enhance visualization libraries.**
 
-- It is highly recommended to read the entire [project details](https://github.com/algorithm-visualizer/algorithm-visualizer/blob/master/PROJECT_DETAILS.md) before working on it. Changes in visualization libraries often require quite a lot of work since you may need to work on all of 3 repositories: [`algorithms`](https://github.com/algorithm-visualizer/algorithms), [`tracers`](https://github.com/algorithm-visualizer/tracers), [`algorithm-visualizer`](https://github.com/algorithm-visualizer/algorithm-visualizer).
+- It is highly recommended to read the entire [project details](https://github.com/algorithm-visualizer/algorithm-visualizer/blob/master/PROJECT_DETAILS.md) before working on it. Making changes to visualization libraries often requires quite a lot of work since you may need to work on all of 3 repositories: [`algorithms`](https://github.com/algorithm-visualizer/algorithms), [`tracers`](https://github.com/algorithm-visualizer/tracers), and [`algorithm-visualizer`](https://github.com/algorithm-visualizer/algorithm-visualizer). We encourage you to raise an issue about your idea of enhancement before working on it.
 
 **I have a question in regards to contributing.**
 
