@@ -22,7 +22,7 @@
     npm run dev
     ```
     
-5. Open `http://localhost:8080/` in a web browser.
+5. Open [`http://localhost:8080/`](http://localhost:8080/) in a web browser.
 
 ## Creating a Pull Request
   
@@ -45,3 +45,24 @@
     ```
 
 4. Create a pull request from `my-problem-fixer-branch` branch on your forked repo to `master` branch on the main repo.
+
+## Project Structure
+
+- **app/** wraps the backend and frontend servers.
+- **bin/** contains executables.
+- **branding/** contains representative image files.
+- **src/** contains source codes.
+    - **backend/** contains the source code of the backend server.
+        - **apis/** defines outgoing API requests.
+        - **common/** contains commonly used files.
+        - **controllers/** routes and processes incoming requests.
+    - **frontend/** contains the source code of the frontend server.
+        - **apis/** defines outgoing API requests.
+        - **common/** contains commonly used files.
+        - **components/** defines React components.
+        - **core/** is in charge of visualization.
+            - **datas/** manages visualization data.
+            - **renderers/** renders visualization data.
+        - **reducers/** contains Redux reducers.
+        - **skeletons/** contains skeleton files to be shown in the code editor.
+        - **static/** contains static files to be served.
