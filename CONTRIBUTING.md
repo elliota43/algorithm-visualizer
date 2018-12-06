@@ -1,5 +1,9 @@
 # Contributing
 
+> - [Running Locally](#running-locally)
+> - [Creating a Pull Request](#creating-a-pull-request)
+> - [Project Structure](#project-structure)
+
 ## Running Locally
 
 1. Fork the main repo.
@@ -51,11 +55,18 @@
 - **app/** wraps the backend and frontend servers.
 - **bin/** contains executables.
 - **branding/** contains representative image files.
+- **build/** is where compiled files are located.
+    - **backend/** contains the compiled backend server.
+    - **frontend/** contains the compiled frontend server.
 - **src/** contains source codes.
     - **backend/** contains the source code of the backend server.
         - **apis/** defines outgoing API requests.
         - **common/** contains commonly used files.
         - **controllers/** routes and processes incoming requests.
+        - **public/** is where the backend server outputs.
+            - **algorithms/** is cloned [`algorithm-visualizer/algorithms`](https://github.com/algorithm-visualizer/algorithms) repo.
+            - **codes/** is where users' codes are uploaded to
+            - **tracers/** is cloned [`algorithm-visualizer/tracers`](https://github.com/algorithm-visualizer/tracers) repo.
     - **frontend/** contains the source code of the frontend server.
         - **apis/** defines outgoing API requests.
         - **common/** contains commonly used files.
