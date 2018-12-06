@@ -1,4 +1,5 @@
 # Algorithm Visualizer
+
 > Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.
 
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat-square)](https://gitter.im/algorithm-visualizer)
@@ -11,12 +12,14 @@ Learning algorithms from text and static images is quite boring. For that, there
 
 ## Contributing
 
-The project [algorithm-visualizer](https://github.com/algorithm-visualizer) is composed of the following 3 repositories.
+**I want to add or improve an algorithm.**
 
-* [algorithm-visualizer/algorithms](https://github.com/algorithm-visualizer/algorithms): contains public algorithms shown on the sidebar. [Contribute](https://github.com/algorithm-visualizer/algorithms/blob/master/CONTRIBUTING.md)
+- We have a separate repository for public algorithms. Check out the [contributing guideline](https://github.com/algorithm-visualizer/algorithms/blob/master/CONTRIBUTING.md) in [`algorithms`](https://github.com/algorithm-visualizer/algorithms) repo.
 
-* [algorithm-visualizer/tracers](https://github.com/algorithm-visualizer/tracers): contains visualization libraries written in each supported language. [Contribute](https://github.com/algorithm-visualizer/tracers/blob/master/CONTRIBUTING.md)
+**I want to improve the UI.**
 
-* [algorithm-visualizer/algorithm-visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer): contains the front-end written in React.js and the back-end written in Node.js. [Contribute](https://github.com/algorithm-visualizer/algorithm-visualizer/blob/master/CONTRIBUTING.md)
+- Check out the [contributing guideline](https://github.com/algorithm-visualizer/algorithm-visualizer/blob/master/CONTRIBUTING.md) in this repo. The [directory structure](https://github.com/algorithm-visualizer/algorithm-visualizer/blob/master/PROJECT_DETAILS.md#algorithm-visualizer) might be helpful as well.
 
-Take a moment to read `CONTRIBUTING.md` in the repository you want to contribute to.
+**I want to enhance visualization libraries.**
+
+- It is highly recommended to read the entire [project details](https://github.com/algorithm-visualizer/algorithm-visualizer/blob/master/PROJECT_DETAILS.md) before working on it. Changes in visualization libraries often require quite a lot of work since you may need to work on all of 3 repositories: [`algorithms`](https://github.com/algorithm-visualizer/algorithms), [`tracers`](https://github.com/algorithm-visualizer/tracers), [`algorithm-visualizer`](https://github.com/algorithm-visualizer/algorithm-visualizer).
